@@ -1,0 +1,17 @@
+.citites{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.citites:hover{
+    border: 1px  solid #00A5EC;
+    cursor: pointer;
+    
+}
+.citites:hover>p{
+    color:#00A5EC;
+    
+}

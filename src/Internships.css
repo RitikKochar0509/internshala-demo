@@ -1,0 +1,95 @@
+.internships{
+    display: flex;
+    flex-direction: column;
+}
+
+.intern__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.internheader__top>h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.internheader__bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    
+}
+
+.bottom__left>h3{
+    font-weight: 400;
+}
+.bottom__right{
+    display: flex;
+    
+}
+.bottom__right>h3{
+    color:#00A5EC;
+
+    cursor: pointer;
+    
+
+}
+
+.bottom__right>.MuiSvgIcon-root{
+    color:#00A5EC;
+    margin-top: 20px;
+    
+}
+
+.intern__citites,.intern__category{
+    display: flex;
+    
+    padding: 30px;
+    margin-left: 150px;
+    
+    
+    
+}
+.intern__category1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex: 0.4;
+    
+    
+}
+
+
+.city,.city1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: -50px;
+    
+}
+.m{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+
+.ab{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

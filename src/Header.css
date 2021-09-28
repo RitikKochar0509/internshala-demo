@@ -1,0 +1,107 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.header__left>img{
+    display: flex;
+    margin-left: 60px;
+    cursor: pointer;
+
+}
+.header__right{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    
+}
+
+.intern{
+    cursor: pointer;
+}
+.header__right>h4{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    font-weight:400;
+    
+}
+.intern:hover{
+    color: #00A5EC;
+}
+.training:hover{
+    color: #00A5EC;
+}
+
+.jobs:hover{
+    color: #00A5EC;
+}
+
+.header__login,.header__register{
+    padding: 10px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header__login{
+    color: #00A5EC;
+    background-color: white;
+    border: 1px solid #00A5EC;
+    border-radius: 5px;
+    
+}
+
+.header__register{
+    background-color: #00A5EC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    font-size: 15px;
+}
+
+
+.header__bottom{
+    display: flex;
+    
+    justify-content: center;
+    
+    padding: 25px;
+
+
+    border-radius: 5px;
+    
+    
+}
+
+.header__bottom>input{
+    border: 1px solid lightgray;
+    width: 30%;
+    padding: 10px;
+    outline-width: 0;
+    font-size: medium;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.header__bottom>.MuiSvgIcon-root{
+    color: white;
+    background-color: #00A5EC;
+    height: 50px;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+}
+
+
+.header__bottom:hover>input{
+    border-color: #00A5EC;
+}
